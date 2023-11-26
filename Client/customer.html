@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Customer Information Page</title>
+    <link rel="icon" href="data:;base64,=">
     <link rel="stylesheet" type="text/css" href="styles/semantic-ui/semantic.min.css">
 </head>
+
 <body>
     <div class="ui segment">
         <div class="ui three column grid">
@@ -14,10 +17,12 @@
                 <h1 class="ui dividing header">Customer Information</h1>
                 <form class="ui form" id="customerForm">
                     <div class="ui three column grid">
-                        <div class="ui nine wide column"><h2 class="ui heading">Find a Customer</h2></div>
+                        <div class="ui nine wide column">
+                            <h2 class="ui heading">Find a Customer</h2>
+                        </div>
                         <div class="ui three wide right aligned column">
-                            <input type="number" id="customerId" placeholder="customer id"/>
-                        </div> 
+                            <input type="number" id="customerId" placeholder="customer id" />
+                        </div>
                         <div class="ui four wide center aligned column">
                             <button class="ui big button" id="findBtn">Find</button>
                         </div>
@@ -25,13 +30,13 @@
                     <div class="ui two column grid">
                         <div class="ui twelve wide column">
                             <div class="field">
-                            <label>Name</label>
+                                <label>Name</label>
                                 <div class="field">
-                                <input type="text" id="name">
+                                    <input type="text" id="name">
                                 </div>
                             </div>
                             <div class="field">
-                            <label>Address</label>
+                                <label>Address</label>
                                 <div class="field">
                                     <input type="text" id="address">
                                 </div>
@@ -119,11 +124,10 @@
             <div class="ui two wide column"></div>
         </div>
     </div>
-    <script
-    src="https://code.jquery.com/jquery-3.1.1.min.js"
-        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
     <script src="styles/semantic-ui/semantic.min.js"></script>
     <script src="js/customer.js"></script>
 </body>
+
 </html>
